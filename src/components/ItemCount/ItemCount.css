@@ -1,0 +1,58 @@
+.itemsCounterCard{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+  width: 550px;
+  height: 500px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid grey;
+  margin-top:50px
+
+}
+
+.theButtons{
+  height:50px;
+  border: 1px solid grey;
+  width:450px;
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 5px
+
+
+}
+
+.add{
+  cursor:none;
+  font-size: 40px
+}
+
+
+.rest{
+  cursor:none;
+  font-size: 40px
+
+}
+
+
+.add:hover{
+  cursor: pointer;
+
+}
+
+
+.rest:hover{
+  cursor: pointer;
+
+}
+
+.itemName{
+  font-size: 35px
+}
+
+
+.stock{
+  font-size:25px
+}

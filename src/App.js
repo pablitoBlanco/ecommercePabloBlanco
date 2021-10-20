@@ -1,16 +1,18 @@
-import "./components/NavBar.css"
-import "./components/ItemListContainer.css"
+import "./components/NavBar/NavBar.css"
+import "./components/ItemListContainer/ItemListContainer.css"
 import './App.css';
-import {NavBar} from "./components/NavBar"
-import {ItemListContainer} from "./components/ItemListContainer"
+import {NavBar} from "./components/NavBar/NavBar"
+import {ItemListContainer} from "./components/ItemListContainer/ItemListContainer"
+
 
 
 function App() {
+
   return (
 
     <>
     <NavBar/>
-    <ItemListContainer text="Bienvenido"/>
+    <ItemListContainer />
     </>
 
   );
