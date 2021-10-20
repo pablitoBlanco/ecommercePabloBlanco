@@ -10,7 +10,7 @@ export const ItemListContainer = (props) => {
   return (
 
     <div className="itemsContainer">
-      <ItemCount name="Form and function - Photek" stock={10} initial= {1} onAdd={onAdd} />
+      <ItemCount name= "Form and function - Photek" stock= {10} initial= {1} onAdd={onAdd} />
     </div>
 
   )
