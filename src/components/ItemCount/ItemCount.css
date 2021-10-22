@@ -1,4 +1,5 @@
 .itemsCounterCard{
+
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -12,6 +13,7 @@
 }
 
 .theButtons{
+
   height:50px;
   border: 1px solid grey;
   width:450px;
@@ -25,13 +27,16 @@
 }
 
 .add{
+
   cursor:none;
   font-size: 40px;
   user-select: none;
+
 }
 
 
 .rest{
+
   cursor:none;
   font-size: 40px;
   user-select: none;
@@ -40,21 +45,33 @@
 
 
 .add:hover{
+
   cursor: pointer;
 
 }
 
 
 .rest:hover{
+
   cursor: pointer;
 
 }
 
 .itemName{
+
   font-size: 35px
+
 }
 
 
 .stock{
+
   font-size:25px
+
+}
+
+button{
+
+  user-select: none
+
 }

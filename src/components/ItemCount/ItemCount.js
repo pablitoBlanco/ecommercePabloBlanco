@@ -7,7 +7,7 @@ export const ItemCount = (props) =>{
   const [disabled, setDisabled] = useState(false)
 
   const addItem = () =>{
-
+    if(quantity < props.stock)
     setQuantity(quantity + 1)
   }
 
@@ -32,7 +32,7 @@ useEffect( () => {
       </h2>
       <p className="stock"> Stock {props.stock} </p>
       <div className="theButtons">
-         <span className="add" onClick = {addItem}>+</span> {quantity} <span className="rest" onClick={restItem}>-</span>
+         <span className="add" onClick ={addItem}> + </span> {quantity} <span className="rest" onClick={restItem}> - </span>
       </div>
       <button onClick= {() => props.onAdd(quantity, props.stock)} disabled={disabled}> Agregar al carrito </button>
     </div>
