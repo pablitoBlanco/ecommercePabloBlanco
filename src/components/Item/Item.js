@@ -1,16 +1,16 @@
 import './Item.css'
 
-export const Item = (props) =>{
+export const Item = ( {cover, name, band, price} ) => {
 
   return (
     <div className="discosCards">
       <div className= "coverDiscos">
-        <img src={props.cover} alt="cover"/>
+        <img src={cover} alt="cover"/>
       </div>
       <div className="infoDiscos">
-        <h3>Disco: {props.name}</h3>
-        <h3>Banda: {props.band}</h3>
-        <h4>Precio: {props.price}</h4>
+        <h3>Disco: {name}</h3>
+        <h3>Banda: {band}</h3>
+        <h4>Precio: {price}</h4>
       </div>
     </div>
   )
