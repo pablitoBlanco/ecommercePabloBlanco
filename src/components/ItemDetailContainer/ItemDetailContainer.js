@@ -1,13 +1,16 @@
-import { React, useState, useEffect } from 'react'
+import { React, useState, useEffect} from 'react'
 import './ItemDetailContainer.css'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import { arrayDiscos } from "../Item/arrayDiscos.js"
+import {useParams} from "react-router-dom"
 
 
 
 export function ItemDetailContainer() {
 
   const [item, setItem] = useState('')
+  const {id} = useParams()
+
 
 
   useEffect(() => {
@@ -23,9 +26,7 @@ export function ItemDetailContainer() {
     task.then(
       (result) => {
 
-        setItem(result.find((disco) => disco.id === 7 ))
-
-
+        setItem(result.find((disco) => disco.id == id ))
 
       }
 
@@ -36,7 +37,7 @@ export function ItemDetailContainer() {
 
       })
 
-  }, [])
+  }, [id])
 
 
   return (
