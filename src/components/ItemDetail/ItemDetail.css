@@ -21,14 +21,21 @@
 
 .listaDetail{
   list-style-type: none;
-  text-align: center
+  text-align: center;
+  padding:10px
 }
 
 .itemDescription{
-  width:200px;
+  width:250px;
 }
 
 .description{
-  margin-left:45px;
-  font-size: 17px
+
+  font-size: 17px;
+  text-align:center
+}
+
+p{
+  padding:15px;
+  margin:0px;
 }
