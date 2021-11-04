@@ -15,7 +15,13 @@ img{
   justify-content: flex-start;
   box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  position:relative;
 
+}
+
+.discosCards:hover{
+  cursor:pointer;
+  transform: translateY(-5px);
 }
 
 .infoDiscos{
@@ -26,7 +32,6 @@ img{
   height:170px;
 
 }
-
 
 h3{
   margin:0px;

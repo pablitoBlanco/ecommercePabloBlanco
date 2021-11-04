@@ -23,7 +23,7 @@ import {arrayDiscos} from "../Item/arrayDiscos.js"
        (result) => {
 
          setDiscos(result)
-         console.log(result)
+        /*  console.log(result) */
 
        }
 
@@ -38,6 +38,7 @@ import {arrayDiscos} from "../Item/arrayDiscos.js"
 
 
   return(
+
       <>
      {
 
