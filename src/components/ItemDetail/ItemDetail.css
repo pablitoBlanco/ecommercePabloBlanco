@@ -12,17 +12,20 @@
 
 .cover{
   width:450px;
+  height:450px;
 
 }
 
  img{
   width:100%;
+  height:100%;
 }
 
 .listaDetail{
   list-style-type: none;
   text-align: center;
-  padding:10px
+  padding:10px;
+  margin-bottom:0
 }
 
 .itemDescription{
@@ -32,7 +35,8 @@
 .description{
 
   font-size: 17px;
-  text-align:center
+  text-align:center;
+  height:160px;
 }
 
 p{

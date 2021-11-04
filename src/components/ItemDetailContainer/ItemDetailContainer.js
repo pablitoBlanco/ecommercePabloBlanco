@@ -6,6 +6,7 @@ import { arrayDiscos } from "../Item/arrayDiscos.js"
 
 
 export function ItemDetailContainer() {
+
   const [item, setItem] = useState('')
 
 
@@ -22,7 +23,7 @@ export function ItemDetailContainer() {
     task.then(
       (result) => {
 
-        setItem(result.find((disco) => disco.id === 2 ))
+        setItem(result.find((disco) => disco.id === 7 ))
 
 
 
@@ -47,6 +48,7 @@ export function ItemDetailContainer() {
             band={item.band}
             price={item.price}
             photo={item.photo}
+            genre={item.genre}
             description={item.description}
           />
         ) : <h1>Cargando...</h1>
